@@ -160,10 +160,10 @@ h3 {
   background-size: cover;
 }
 
-.formulaireSectionTwo {
+/* .formulaireSectionTwo {
   display: flex;
   height: 94.5vh;
-}
+} */
 
 .caseTwo {
   display: flex;
@@ -284,6 +284,28 @@ h3 {
   background-color: #E7F5FD;
 }
 /* end header styles */
+
+/* start footer styles */
+
+/*Supp the puce and allow links to go to the line*/
+#listUl {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 2em;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+/*Color the link in grey and get a padding between each link*/
+li a {
+    color: #aab8c2;
+    font-size: 0.8em;
+    padding: 3px 7px;
+}
+
+/* end footer styles */
 
 /* ==========================================================================
    Helper classes
